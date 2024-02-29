@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Italian!"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnKorean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korean!"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnFrench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="French!"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnSpanish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spanish!"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hindi!"
+        android:textSize="30dp" />
+</LinearLayout>
